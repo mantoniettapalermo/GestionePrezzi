@@ -20,7 +20,22 @@
       "ProjectGuid": "a912a9f1-98dd-4af3-a50d-6bf547d4a76d",
       "DisplayName": "Immagini",
       "ColorIndex": 2
+    },
+    "20b1d111-2dcf-42e3-94ab-b8449fe4c2e1": {
+      "ProjectGuid": "20b1d111-2dcf-42e3-94ab-b8449fe4c2e1",
+      "DisplayName": "GestionePrezziCore",
+      "ColorIndex": 3
+    },
+    "97aafc6f-5288-4e97-92eb-118aa2777992": {
+      "ProjectGuid": "97aafc6f-5288-4e97-92eb-118aa2777992",
+      "DisplayName": "GestionePrezziWPF",
+      "ColorIndex": 4
+    },
+    "39803049-98a3-4f4f-b5c6-7610f132f1cf": {
+      "ProjectGuid": "39803049-98a3-4f4f-b5c6-7610f132f1cf",
+      "DisplayName": "GestionePrezziCore",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }

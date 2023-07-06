@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RJControls", "RJControls", 
 		GestionePrezzi\RJtextBox.resx = GestionePrezzi\RJtextBox.resx
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionePrezziCore", "GestionePrezziCore\GestionePrezziCore.csproj", "{39803049-98A3-4F4F-B5C6-7610F132F1CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{43292998-053C-43E1-8597-6A0E126B0DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43292998-053C-43E1-8597-6A0E126B0DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43292998-053C-43E1-8597-6A0E126B0DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39803049-98A3-4F4F-B5C6-7610F132F1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39803049-98A3-4F4F-B5C6-7610F132F1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39803049-98A3-4F4F-B5C6-7610F132F1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39803049-98A3-4F4F-B5C6-7610F132F1CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

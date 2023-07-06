@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,7 +22,11 @@ namespace GestionePrezzi
         {
             InitializeComponent();
             UpdateBinding();
-            pictureBox1.Image = Image.FromFile(@"C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\Immagini\immagineProvv.jpg");
+           
+            string imgPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Immagini", "immagineProvv.jpg");
+            pictureBox1.Image = Image.FromFile(imgPath);
+            // cercare di mettere il riferimento su GestionePrezziCore
+            //.gitignore -  pictureBox1.Image pictureBox1.Image = Image.FromFile(@"C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\Immagini\immagineProvv.jpg");
         }
 
         private void UpdateBinding()
@@ -167,7 +173,9 @@ namespace GestionePrezzi
 
 
                 Console.WriteLine("Problemi con il caricamento dell'immagine: " + ex.Message);
-                pictureBox1.Image = Image.FromFile(@"C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\Immagini\immagineProvv.jpg");
+                string imgPath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "Immagini", "immagineProvv.jpg");
+                pictureBox1.Image = Image.FromFile(imgPath);
+               // .gitignore -  pictureBox1.Image = Image.FromFile(@"C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\Immagini\immagineProvv.jpg");
             }
 
       

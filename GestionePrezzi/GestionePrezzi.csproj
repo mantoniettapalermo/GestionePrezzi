@@ -125,9 +125,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Immagini\immagineProvv.jpg" />
+    <Content Include="Immagini\immagineProvv.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestionePrezziCore\GestionePrezziCore.csproj">
+      <Project>{39803049-98a3-4f4f-b5c6-7610f132f1cf}</Project>
+      <Name>GestionePrezziCore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
