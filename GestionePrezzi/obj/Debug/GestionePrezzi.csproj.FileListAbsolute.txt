@@ -16,3 +16,6 @@ C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\obj\Debug\GestionePrez
 C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\obj\Debug\GestionePrezzi.FileExplorer1.resources
 C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\obj\Debug\GestionePrezzi.InserisciProdotto.resources
 C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\obj\Debug\GestionePrezzi.Home.resources
+C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\bin\Debug\Immagini\immagineProvv.jpg
+C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\bin\Debug\GestionePrezziCore.dll
+C:\Users\lele_\source\repos\GestionePrezzi\GestionePrezzi\bin\Debug\GestionePrezziCore.pdb

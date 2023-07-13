@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.productFoundListbox = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.cercaButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button_InserisciProdotto = new System.Windows.Forms.Button();
@@ -56,16 +56,16 @@
             this.productFoundListbox.TabIndex = 0;
             this.productFoundListbox.SelectedIndexChanged += new System.EventHandler(this.productFoundListbox_SelectedIndexChanged);
             // 
-            // button1
+            // cercaButton
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Location = new System.Drawing.Point(314, 86);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 26);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Cerca";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.cercaButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cercaButton.Location = new System.Drawing.Point(314, 86);
+            this.cercaButton.Name = "cercaButton";
+            this.cercaButton.Size = new System.Drawing.Size(99, 26);
+            this.cercaButton.TabIndex = 3;
+            this.cercaButton.Text = "Cerca";
+            this.cercaButton.UseVisualStyleBackColor = true;
+            this.cercaButton.Click += new System.EventHandler(this.CercaButton_Click);
             // 
             // button2
             // 
@@ -76,7 +76,6 @@
             this.button2.Size = new System.Drawing.Size(38, 36);
             this.button2.TabIndex = 4;
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -109,7 +108,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox_prezzoMinimo
             // 
@@ -145,7 +143,6 @@
             this.rJtextBox1.Size = new System.Drawing.Size(462, 35);
             this.rJtextBox1.TabIndex = 5;
             this.rJtextBox1.UnderlinedStyle = false;
-            this.rJtextBox1.Load += new System.EventHandler(this.rJtextBox1_Load_1);
             this.rJtextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.rJtextBox1_KeyDown);
             // 
             // Home
@@ -161,11 +158,10 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.rJtextBox1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cercaButton);
             this.Controls.Add(this.productFoundListbox);
             this.Name = "Home";
             this.Text = "GestionePrezzi";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,7 +171,7 @@
         #endregion
 
         private System.Windows.Forms.ListBox productFoundListbox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button cercaButton;
         private System.Windows.Forms.Button button2;
         private RJtextBox rJtextBox1;
         private System.Windows.Forms.Button button3;

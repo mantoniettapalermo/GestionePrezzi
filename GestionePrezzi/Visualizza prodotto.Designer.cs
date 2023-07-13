@@ -88,7 +88,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label_barcode
             // 
@@ -99,7 +98,6 @@
             this.label_barcode.Size = new System.Drawing.Size(66, 16);
             this.label_barcode.TabIndex = 1;
             this.label_barcode.Text = "Barcode";
-            this.label_barcode.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBoxBarcode
             // 
@@ -124,7 +122,6 @@
             this.label_nomeParziale.Size = new System.Drawing.Size(108, 16);
             this.label_nomeParziale.TabIndex = 3;
             this.label_nomeParziale.Text = "Nome parziale";
-            this.label_nomeParziale.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox_categoria
             // 
@@ -132,7 +129,6 @@
             this.textBox_categoria.Name = "textBox_categoria";
             this.textBox_categoria.Size = new System.Drawing.Size(307, 22);
             this.textBox_categoria.TabIndex = 6;
-            this.textBox_categoria.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label_categoria
             // 
@@ -143,7 +139,6 @@
             this.label_categoria.Size = new System.Drawing.Size(75, 16);
             this.label_categoria.TabIndex = 5;
             this.label_categoria.Text = "Categoria";
-            this.label_categoria.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // textBox_nomeProdotto
             // 
@@ -168,7 +163,6 @@
             this.textBox_sottocategoria.Name = "textBox_sottocategoria";
             this.textBox_sottocategoria.Size = new System.Drawing.Size(307, 22);
             this.textBox_sottocategoria.TabIndex = 10;
-            this.textBox_sottocategoria.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label_sottogategoria
             // 
@@ -179,7 +173,6 @@
             this.label_sottogategoria.Size = new System.Drawing.Size(109, 16);
             this.label_sottogategoria.TabIndex = 9;
             this.label_sottogategoria.Text = "Sottocategoria";
-            this.label_sottogategoria.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox_origine
             // 
@@ -209,7 +202,6 @@
             this.label_prezzoMinimo.Size = new System.Drawing.Size(107, 16);
             this.label_prezzoMinimo.TabIndex = 13;
             this.label_prezzoMinimo.Text = "Prezzo minimo";
-            this.label_prezzoMinimo.Click += new System.EventHandler(this.label_prezzoMinimo_Click);
             // 
             // textBox_prezzoMinimo
             // 
@@ -236,7 +228,6 @@
             this.label_prezzoMax.Size = new System.Drawing.Size(86, 16);
             this.label_prezzoMax.TabIndex = 15;
             this.label_prezzoMax.Text = "Prezzo Max";
-            this.label_prezzoMax.Click += new System.EventHandler(this.label1_Click_3);
             // 
             // label_prezzo
             // 
@@ -247,7 +238,6 @@
             this.label_prezzo.Size = new System.Drawing.Size(54, 16);
             this.label_prezzo.TabIndex = 17;
             this.label_prezzo.Text = "Prezzo";
-            this.label_prezzo.Click += new System.EventHandler(this.label1_Click_4);
             // 
             // label_unità
             // 
@@ -296,7 +286,6 @@
             this.label_SuperMin.Size = new System.Drawing.Size(104, 16);
             this.label_SuperMin.TabIndex = 21;
             this.label_SuperMin.Text = "Supermercato";
-            this.label_SuperMin.Click += new System.EventHandler(this.label_SuperMin_Click);
             // 
             // textBox_dataMax
             // 
@@ -328,7 +317,6 @@
             this.textBox_cittaMax.Name = "textBox_cittaMax";
             this.textBox_cittaMax.Size = new System.Drawing.Size(104, 22);
             this.textBox_cittaMax.TabIndex = 29;
-            this.textBox_cittaMax.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // textBox_cittaMin
             // 
@@ -336,7 +324,6 @@
             this.textBox_cittaMin.Name = "textBox_cittaMin";
             this.textBox_cittaMin.Size = new System.Drawing.Size(104, 22);
             this.textBox_cittaMin.TabIndex = 28;
-            this.textBox_cittaMin.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label_citta
             // 
@@ -347,7 +334,6 @@
             this.label_citta.Size = new System.Drawing.Size(38, 16);
             this.label_citta.TabIndex = 27;
             this.label_citta.Text = "Città";
-            this.label_citta.Click += new System.EventHandler(this.label1_Click_5);
             // 
             // textBox_Marca
             // 
@@ -355,7 +341,6 @@
             this.textBox_Marca.Name = "textBox_Marca";
             this.textBox_Marca.Size = new System.Drawing.Size(307, 22);
             this.textBox_Marca.TabIndex = 31;
-            this.textBox_Marca.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
             // 
             // label1
             // 
@@ -366,7 +351,6 @@
             this.label1.Size = new System.Drawing.Size(50, 16);
             this.label1.TabIndex = 30;
             this.label1.Text = "Marca";
-            this.label1.Click += new System.EventHandler(this.label1_Click_6);
             // 
             // button_salvaModifiche
             // 
@@ -537,7 +521,6 @@
             this.comboBoxListUnitVP.Name = "comboBoxListUnitVP";
             this.comboBoxListUnitVP.Size = new System.Drawing.Size(104, 24);
             this.comboBoxListUnitVP.TabIndex = 54;
-            this.comboBoxListUnitVP.SelectedIndexChanged += new System.EventHandler(this.comboBoxListUnitVP_SelectedIndexChanged);
             // 
             // Visualizza_prodotto
             // 
@@ -597,7 +580,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Visualizza_prodotto";
             this.Text = "Visualizza_prodotto";
-            this.Load += new System.EventHandler(this.Visualizza_prodotto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

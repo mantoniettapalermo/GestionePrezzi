@@ -7,8 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-
+using GestionePrezziCore;
 
 namespace GestionePrezzi
 {
@@ -54,7 +53,7 @@ namespace GestionePrezzi
             if (this.IdProdotto != -1)
             {
                 Console.WriteLine("Save img in DB --> path: " + txtPath.Text);
-                DataAccess db = new DataAccess();
+                GestionePrezziCore.DataAccessCore db = new GestionePrezziCore.DataAccessCore();
                 db.SaveFileImg(this.IdProdotto, txtPath.Text);
                 this.ReturnPath = txtPath.Text;
                 this.Close();

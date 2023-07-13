@@ -370,7 +370,6 @@
             this.textBox_idProdotto.Name = "textBox_idProdotto";
             this.textBox_idProdotto.Size = new System.Drawing.Size(307, 22);
             this.textBox_idProdotto.TabIndex = 34;
-            this.textBox_idProdotto.TextChanged += new System.EventHandler(this.textBox_idProdotto_TextChanged);
             // 
             // textBox_newCitta
             // 

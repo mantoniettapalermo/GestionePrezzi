@@ -76,8 +76,8 @@ namespace GestionePrezzi
 
 
         }
-       
-        public string Text{
+
+        override public string Text{
             get {
                 return textBoxR.Text;
             }
