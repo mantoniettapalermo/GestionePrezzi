@@ -10,7 +10,7 @@ L'applicazione ha l'obiettivo di fornire una lista sempre aggiornata dei prodott
 - Cercare prodotti: Gli utenti possono cercare tra i prodotti esistenti utilizzando vari filtri, come il nome del prodotto o la categoria.
 - Aggiungere nuovi prezzi: Ogni volta che un utente trova un prezzo migliore, può aggiungerlo al database, contribuendo a tenere traccia dei diversi prezzi per quel prodotto.
 - Visualizzare il prezzo minimo: L'applicazione calcola automaticamente il prezzo minimo tra quelli inseriti per ogni prodotto, aiutando gli utenti a trovare le offerte migliori.
-- 
+
 ## Tecnologie Utilizzate
 Per popolare inizialmente il database, ho utilizzato la tecnologia RPA (Robotic Process Automation) tramite UiPath. Questo mi ha permesso di raccogliere automaticamente una lista di prodotti e prezzi dai principali supermercati della mia zona. Con questa base dati, ho iniziato ad aggiornare manualmente i prezzi quando necessario. In futuro, intendo automatizzare ulteriormente questo processo per garantire che i dati siano sempre aggiornati in tempo reale.
 
