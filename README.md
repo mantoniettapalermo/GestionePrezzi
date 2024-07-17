@@ -1,7 +1,7 @@
 # GestionePrezzi
 
 ## Storia del Progetto
-Benvenuti nel mio progetto! Questo viaggio è iniziato con un'idea semplice ma potente: aiutare le famiglie a risparmiare sulla spesa quotidiana. Mi chiamo [il tuo nome] e sono la mente dietro questa applicazione, sviluppata in C# utilizzando il framework .Net. L'ispirazione è nata dalla mia esperienza personale: durante la spesa, mi trovavo spesso a cercare di ricordare i prezzi migliori per i vari prodotti, un compito che diventava sempre più difficile man mano che aumentavano gli articoli da acquistare. Volevo uno strumento che mi aiutasse a risolvere questo problema, e così è nata questa app.
+Benvenuti nel mio progetto! Questo viaggio è iniziato con un'idea semplice ma potente: aiutare le famiglie a risparmiare sulla spesa quotidiana. Mi chiamo Antonietta e sono la mente dietro questa applicazione, sviluppata in C# utilizzando il framework .Net. L'ispirazione è nata dalla mia esperienza personale: durante la spesa, mi trovavo spesso a cercare di ricordare i prezzi migliori per i vari prodotti, un compito che diventava sempre più difficile man mano che aumentavano gli articoli da acquistare. Volevo uno strumento che mi aiutasse a risolvere questo problema, e così è nata questa app.
 
 ## Obiettivo dell'Applicazione
 L'applicazione ha l'obiettivo di fornire una lista sempre aggiornata dei prodotti disponibili nei negozi, con i relativi prezzi minimi indicati per unità di misura. Questo strumento permette agli utenti di:
